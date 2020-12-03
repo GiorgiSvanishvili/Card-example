@@ -1,0 +1,67 @@
+body, html{
+    margin:0;
+    height:100vh;
+}
+body{
+    display:grid;
+    place-content:center;
+    height:100vh;
+    background:rgb(240, 233, 233);
+    font-family:'Nunito', sans-serif;
+}
+.card{
+    padding: 0 15em;
+
+    &__img{
+        display:block;
+        height:100px;
+        width:100%;
+        background:#e0466b;
+
+    }
+    &__content {
+       padding:1.5em;
+       background:white; 
+    }
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        padding: .3em .5em;
+        margin-right: .5em;
+        background:rgb(209, 198, 198);
+        border-radius: .3em;
+        font-size: .85em;
+
+        &--active {
+            background:grey
+
+        }
+        &:hover {
+            background:rgb(192, 172, 172);
+        }
+}
+&__link{
+    background:rgb(12, 133, 32);
+    color:white;
+    text-decoration:none;
+    padding: .5em 1em;
+    display:inline-block;
+    margin-top: .5em;
+    border-radius: .5em;
+
+    &:hover {
+        background:rgb(69, 214, 69);
+    }
+    
+}
+&desc {
+    font-family: 'Nunito';
+}
+
+}
