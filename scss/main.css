@@ -22,12 +22,38 @@ body {
   width: 100%;
   background: #e0466b;
 }
+.card__note {
+  font-size:1.5em;
+  font-family:'Nunito';
+  padding-top: 1.5em;
+  padding-left: 10em;
+}
 
 .card__content {
   padding: 1.5em;
-  background: white;
+  background:white;
 }
-
+.card__back {
+    position: absolute;
+    padding-top:0em;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.card__heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 22%;
+    left: 0;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+}
 .card__list {
   list-style-type: none;
   display: -webkit-box;
@@ -70,4 +96,3 @@ body {
 .carddesc {
   font-family: 'Nunito';
 }
-/*# sourceMappingURL=main.css.map */

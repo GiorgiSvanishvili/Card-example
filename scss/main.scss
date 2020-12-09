@@ -19,6 +19,11 @@ body{
         background:#e0466b;
 
     }
+    &__note{
+        display:flex;
+        font-family:sans-serif;
+        padding:1.5em;
+    }
     &__content {
        padding:1.5em;
        background:white; 
